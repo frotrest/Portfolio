@@ -1,0 +1,136 @@
+.hero {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroContentSubTitle {
+  color: rgba(200, 194, 235, 1);
+  font-family: 'Space Grotesk';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  border: 1px solid rgba(72, 70, 77, 1);
+  border-radius: 12px;
+  background: rgba(28, 27, 27, 1);
+  text-align: center;
+}
+
+.heroContentTitle {
+  color: rgba(229, 226, 225, 1);
+  font-family: 'Inter';
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1.4px;
+  width: 775px;
+}
+
+@media (max-width: 1200px) {
+  .heroContentTitle {
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroContentTitle {
+    font-size: 52px;
+    width: 480px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroContentTitle {
+    font-size: 42px;
+    width: 320px;
+  }
+}
+
+.heroContentTitle > span {
+  background: linear-gradient(
+    135deg,
+    rgba(200, 194, 235, 1) 0%,
+    rgba(196, 197, 218, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.heroContentDescription {
+  color: rgba(201, 197, 206, 1);
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 590px;
+}
+
+@media (max-width: 768px) {
+  .heroContentDescription {
+    width: 480px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroContentDescription {
+    font-size: 14px;
+    width: 320px;
+  }
+}
+
+.heroBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width: 480px) {
+  .heroBtns {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.heroBtn {
+  color: rgba(229, 226, 225, 1);
+  font-family: 'Space Grotesk';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1.2px;
+  padding: 15px 30px;
+  border: 1px solid rgba(146, 143, 152, 1);
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background: transparent;
+  text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  .heroBtn {
+    width: 195px;
+    text-align: center;
+  }
+}
+
+.heroBtn:hover {
+  color: rgba(48, 44, 77, 1);
+  border-radius: 2px;
+  background: rgba(200, 194, 235, 1);
+  border: 1px solid transparent;
+}
