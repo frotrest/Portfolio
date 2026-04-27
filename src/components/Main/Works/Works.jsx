@@ -101,7 +101,7 @@ const Works = () => {
                   src={project.img}
                   alt={`img-${project.id}`}
                   className={clsx(styles.imageBoxItem)}
-                  loading='lazy'
+                  loading="lazy"
                 />
               </div>
             </a>
