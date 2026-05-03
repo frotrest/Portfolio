@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './works.module.css';
 import clsx from 'clsx';
 import Container from '../../../Container';
-import adnannike from '@assets/adnannike.webp';
+import headphones from '@assets/headphones.webp';
 import moneyguard from '@assets/moneyguard.webp';
 import openweather from '@assets/openweather.webp';
 import mntn from '@assets/mntn.webp';
@@ -13,12 +13,12 @@ const Works = () => {
   const projects = [
     {
       id: 1,
-      title: 'AdnanNike',
-      desc: 'AdnanNike is a modern study project inspired by original Nike website.',
+      title: 'HeadPhones',
+      desc: 'The HeadPhones showcases the most convenient and efficient audio device for comfort and high-quality sound.',
       tags: ['React', 'CSS Modules'],
       size: styles.large,
-      img: adnannike,
-      link: 'https://frotrest.github.io/AdnanNike/',
+      img: headphones,
+      link: 'https://frotrest.github.io/Headphones/',
     },
     {
       id: 2,
