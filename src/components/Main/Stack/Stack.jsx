@@ -27,6 +27,7 @@ import 'swiper/css';
 import { Autoplay, Navigation } from 'swiper/modules';
 
 const Stack = () => {
+  
   const stack = [
     {
       id: 1,
