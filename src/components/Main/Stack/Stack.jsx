@@ -19,7 +19,7 @@ import {
   SiNpm,
   SiYarn,
   SiGithub,
-  SiRedux
+  SiRedux,
 } from 'react-icons/si';
 import { LuPackage } from 'react-icons/lu';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -29,115 +29,115 @@ import { Autoplay, Navigation } from 'swiper/modules';
 const Stack = () => {
   
   const stack = [
-  {
-    id: 1,
-    title: 'HTML5',
-    category: 'Markup Language',
-    icon: <SiHtml5 size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 2,
-    title: 'CSS3',
-    category: 'Styling',
-    icon: <SiCss size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 3,
-    title: 'SASS',
-    category: 'Preprocessor',
-    icon: <SiSass size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 4,
-    title: 'JavaScript',
-    category: 'Programming Language',
-    icon: <SiJavascript size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 5,
-    title: 'TypeScript',
-    category: 'Programming Language',
-    icon: <SiTypescript size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 6,
-    title: 'React',
-    category: 'Frontend Library',
-    icon: <SiReact size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 7,
-    title: 'Redux',
-    category: 'State Management',
-    icon: <SiRedux size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 8,
-    title: 'Tailwind',
-    category: 'CSS Framework',
-    icon: <SiTailwindcss size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 9,
-    title: 'Bootstrap',
-    category: 'CSS Framework',
-    icon: <SiBootstrap size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 10,
-    title: 'Figma',
-    category: 'Design Tool',
-    icon: <SiFigma size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 11,
-    title: 'Git',
-    category: 'Version Control',
-    icon: <SiGit size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 12,
-    title: 'Vite',
-    category: 'Build Tool',
-    icon: <SiVite size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 13,
-    title: 'Parcel',
-    category: 'Bundler',
-    icon: <LuPackage size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 14,
-    title: 'NPM',
-    category: 'Package Manager',
-    icon: <SiNpm size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 15,
-    title: 'Yarn',
-    category: 'Package Manager',
-    icon: <SiYarn size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 16,
-    title: 'Vercel',
-    category: 'Deployment',
-    icon: <SiVercel size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 17,
-    title: 'Netlify',
-    category: 'Deployment',
-    icon: <SiNetlify size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-  {
-    id: 18,
-    title: 'Github',
-    category: 'Deployment',
-    icon: <SiGithub size={20} color="rgba(200, 194, 235, 1)" />,
-  },
-];
+    {
+      id: 1,
+      title: 'HTML5',
+      category: 'Markup Language',
+      icon: <SiHtml5 size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 2,
+      title: 'CSS3',
+      category: 'Styling',
+      icon: <SiCss size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 3,
+      title: 'SASS',
+      category: 'Preprocessor',
+      icon: <SiSass size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 4,
+      title: 'JavaScript',
+      category: 'Programming Language',
+      icon: <SiJavascript size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 5,
+      title: 'TypeScript',
+      category: 'Programming Language',
+      icon: <SiTypescript size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 6,
+      title: 'React',
+      category: 'Frontend Library',
+      icon: <SiReact size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 7,
+      title: 'Redux',
+      category: 'State Management',
+      icon: <SiRedux size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 8,
+      title: 'Tailwind',
+      category: 'CSS Framework',
+      icon: <SiTailwindcss size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 9,
+      title: 'Bootstrap',
+      category: 'CSS Framework',
+      icon: <SiBootstrap size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 10,
+      title: 'Figma',
+      category: 'Design Tool',
+      icon: <SiFigma size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 11,
+      title: 'Git',
+      category: 'Version Control',
+      icon: <SiGit size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 12,
+      title: 'Vite',
+      category: 'Build Tool',
+      icon: <SiVite size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 13,
+      title: 'Parcel',
+      category: 'Bundler',
+      icon: <LuPackage size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 14,
+      title: 'NPM',
+      category: 'Package Manager',
+      icon: <SiNpm size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 15,
+      title: 'Yarn',
+      category: 'Package Manager',
+      icon: <SiYarn size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 16,
+      title: 'Vercel',
+      category: 'Deployment',
+      icon: <SiVercel size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 17,
+      title: 'Netlify',
+      category: 'Deployment',
+      icon: <SiNetlify size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 18,
+      title: 'Github',
+      category: 'Deployment',
+      icon: <SiGithub size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+  ];
   return (
     <section className={clsx(styles.stack)} id="stack">
       <Container className={clsx(styles.stackContent)} dataAnimate="fadeInLeft">
