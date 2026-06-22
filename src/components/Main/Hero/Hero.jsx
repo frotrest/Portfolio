@@ -22,7 +22,7 @@ const Hero = () => {
             View recent work
           </a>
           <a
-            href="https://t.me/Kweiq5776"
+            href="https://t.me/Frotrest"
             target="blank"
             className={clsx(styles.heroBtn)}
           >
