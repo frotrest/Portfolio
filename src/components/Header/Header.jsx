@@ -84,7 +84,7 @@ const Header = () => {
 
         <div className={styles.mobileFooter}>
           <a
-            href="https://t.me/Kweiq5776"
+            href="https://t.me/Frotrest"
             target="blank"
             className={clsx(styles.mobileFooterBtn)}
           >
