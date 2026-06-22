@@ -15,7 +15,7 @@ const Contact = () => {
           see how I can help.
         </p>
         <a
-          href="https://t.me/Kweiq5776"
+          href="https://t.me/Frotrest"
           target="blank"
           className={clsx(styles.contactBtn)}
         >
