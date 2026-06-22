@@ -11,7 +11,7 @@ const Footer = () => {
     },
     {
       networkText: 'Telegram',
-      networkLink: 'https://t.me/Kweiq5776',
+      networkLink: 'https://t.me/Frotrest',
     },
     {
       networkText: 'Email',
