@@ -137,6 +137,12 @@ const Stack = () => {
       category: 'Deployment',
       icon: <SiGithub size={20} color="rgba(200, 194, 235, 1)" />,
     },
+    {
+      id: 19,
+      title: 'CI/CD',
+      category: 'Automation & Deployment',
+      icon: <SiGithub size={20} color="rgba(200, 194, 235, 1)" />,
+    },
   ];
   return (
     <section className={clsx(styles.stack)} id="stack">
