@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './works.module.css';
 import clsx from 'clsx';
 import Container from '../../../Container';
-import headphones from '@assets/headphones.webp';
+import evashop from '@assets/evashop.webp';
 import moneyguard from '@assets/moneyguard.webp';
 import openweather from '@assets/openweather.webp';
 import mntn from '@assets/mntn.webp';
@@ -14,11 +14,11 @@ const Works = () => {
     {
       id: 1,
       title: 'HeadPhones',
-      desc: 'The HeadPhones showcases the most convenient and efficient audio device for comfort and high-quality sound.',
+      desc: 'EvaShop is a responsive eCommerce app with product browsing, cart management, and accessibility on all devices.',
       tags: ['React', 'CSS Modules'],
       size: styles.large,
-      img: headphones,
-      link: 'https://frotrest.github.io/Headphones/',
+      img: evashop,
+      link: 'https://frotrest.github.io/evaShop/',
     },
     {
       id: 2,
