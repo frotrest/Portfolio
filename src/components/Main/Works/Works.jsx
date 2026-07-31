@@ -15,7 +15,7 @@ const Works = () => {
       id: 1,
       title: 'EvaShop',
       desc: 'EvaShop is a responsive eCommerce app with product browsing, and accessibility on all devices.',
-      tags: ['React', 'CSS Modules', 'API'],
+      tags: ['React + Redux', 'CSS Modules', 'API'],
       size: styles.large,
       img: evashop,
       link: 'https://frotrest.github.io/evaShop/',
