@@ -13,7 +13,7 @@ const Works = () => {
   const projects = [
     {
       id: 1,
-      title: 'HeadPhones',
+      title: 'EvaShop',
       desc: 'EvaShop is a responsive eCommerce app with product browsing, and accessibility on all devices.',
       tags: ['React', 'CSS Modules'],
       size: styles.large,
