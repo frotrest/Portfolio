@@ -14,7 +14,7 @@ const Works = () => {
     {
       id: 1,
       title: 'HeadPhones',
-      desc: 'EvaShop is a responsive eCommerce app with product browsing, cart management, and accessibility on all devices.',
+      desc: 'EvaShop is a responsive eCommerce app with product browsing, and accessibility on all devices.',
       tags: ['React', 'CSS Modules'],
       size: styles.large,
       img: evashop,
