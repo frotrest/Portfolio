@@ -36,7 +36,7 @@ const Works = () => {
       tags: ['React', 'CSS Modules', 'API'],
       size: styles.large,
       img: moneyguard,
-      link: 'https://frotrest.github.io/MoneyGuard/',
+      link: 'https://moneyguard-three.vercel.app/',
     },
 
     {
