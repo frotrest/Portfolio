@@ -33,7 +33,7 @@ const Works = () => {
       id: 3,
       title: 'Money Guard',
       desc: 'Personal Finance Tracker is a adaptive multipage application for tracking personal income and expenses.',
-      tags: ['React + Redux', 'TypeScript', 'CSS Modules', 'API'],
+      tags: ['React + Redux', 'TypeScript', 'API'],
       size: styles.large,
       img: moneyguard,
       link: 'https://moneyguard-three.vercel.app/',
