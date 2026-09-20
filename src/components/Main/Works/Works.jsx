@@ -5,7 +5,7 @@ import Container from '../../../Container';
 import evashop from '@assets/evashop.webp';
 import moneyguard from '@assets/moneyguard.webp';
 import openweather from '@assets/openweather.webp';
-import mntn from '@assets/mntn.webp';
+import vvwork from '@assets/vvwork.webp';
 import concerts from '@assets/concerts.webp';
 import webstudio from '@assets/webstudio.webp';
 
@@ -15,7 +15,7 @@ const Works = () => {
       id: 1,
       title: 'EvaShop',
       desc: 'EvaShop is a responsive eCommerce app with product browsing, and accessibility on all devices.',
-      tags: ['React', 'CSS Modules', 'API'],
+      tags: ['React + Redux', 'CSS Modules', 'API'],
       size: styles.large,
       img: evashop,
       link: 'https://frotrest.github.io/evaShop/',
@@ -41,12 +41,12 @@ const Works = () => {
 
     {
       id: 4,
-      title: 'MNTN',
-      desc: 'MNTN is a high-end landing page for an exciting hiking guide.',
+      title: 'VVWORK',
+      desc: 'Europe’s platform for jobs and hiring',
       tags: ['React', 'Tailwind'],
       size: styles.small,
-      img: mntn,
-      link: 'https://frotrest.github.io/MNTN/',
+      img: vvwork,
+      link: 'https://vwwork.vercel.app/',
     },
     {
       id: 5,
