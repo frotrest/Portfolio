@@ -20,6 +20,7 @@ import {
   SiYarn,
   SiGithub,
   SiRedux,
+  SiDocker,
 } from 'react-icons/si';
 import { LuPackage } from 'react-icons/lu';
 import { Swiper, SwiperSlide } from 'swiper/react';
