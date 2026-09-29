@@ -28,7 +28,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
 
 const Stack = () => {
   
-  const stack = [
+const stack = [
     {
       id: 1,
       title: 'HTML5',
@@ -97,48 +97,54 @@ const Stack = () => {
     },
     {
       id: 12,
+      title: 'Docker',
+      category: 'Containerization',
+      icon: <SiDocker size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 13,
       title: 'Vite',
       category: 'Build Tool',
       icon: <SiVite size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 13,
+      id: 14,
       title: 'Parcel',
       category: 'Bundler',
       icon: <LuPackage size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 14,
+      id: 15,
       title: 'NPM',
       category: 'Package Manager',
       icon: <SiNpm size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 15,
+      id: 16,
       title: 'Yarn',
       category: 'Package Manager',
       icon: <SiYarn size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 16,
+      id: 17,
       title: 'Vercel',
       category: 'Deployment',
       icon: <SiVercel size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 17,
+      id: 18,
       title: 'Netlify',
       category: 'Deployment',
       icon: <SiNetlify size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 18,
+      id: 19,
       title: 'Github',
       category: 'Deployment',
       icon: <SiGithub size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 19,
+      id: 20,
       title: 'CI/CD',
       category: 'Automation & Deployment',
       icon: <SiGithub size={20} color="rgba(200, 194, 235, 1)" />,
