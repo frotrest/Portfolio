@@ -20,6 +20,9 @@ import {
   SiYarn,
   SiGithub,
   SiRedux,
+  SiDocker,
+  SiNextdotjs,
+  SiGithubactions,
 } from 'react-icons/si';
 import { LuPackage } from 'react-icons/lu';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -66,77 +69,96 @@ const Stack = () => {
     },
     {
       id: 7,
+      title: 'Next.js',
+      category: 'React Framework',
+      icon: <SiNextdotjs size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 8,
       title: 'Redux',
       category: 'State Management',
       icon: <SiRedux size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 8,
+      id: 9,
       title: 'Tailwind',
       category: 'CSS Framework',
       icon: <SiTailwindcss size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 9,
+      id: 10,
       title: 'Bootstrap',
       category: 'CSS Framework',
       icon: <SiBootstrap size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 10,
+      id: 11,
       title: 'Figma',
       category: 'Design Tool',
       icon: <SiFigma size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 11,
+      id: 12,
       title: 'Git',
       category: 'Version Control',
       icon: <SiGit size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 12,
+      id: 13,
+      title: 'Docker',
+      category: 'Containerization',
+      icon: <SiDocker size={20} color="rgba(200, 194, 235, 1)" />,
+    },
+    {
+      id: 14,
       title: 'Vite',
       category: 'Build Tool',
       icon: <SiVite size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 13,
+      id: 15,
       title: 'Parcel',
       category: 'Bundler',
       icon: <LuPackage size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 14,
+      id: 16,
       title: 'NPM',
       category: 'Package Manager',
       icon: <SiNpm size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 15,
+      id: 17,
       title: 'Yarn',
       category: 'Package Manager',
       icon: <SiYarn size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 16,
+      id: 18,
       title: 'Vercel',
       category: 'Deployment',
       icon: <SiVercel size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 17,
+      id: 19,
       title: 'Netlify',
       category: 'Deployment',
       icon: <SiNetlify size={20} color="rgba(200, 194, 235, 1)" />,
     },
     {
-      id: 18,
+      id: 20,
       title: 'Github',
       category: 'Deployment',
       icon: <SiGithub size={20} color="rgba(200, 194, 235, 1)" />,
     },
+    {
+      id: 21,
+      title: 'CI/CD',
+      category: 'Automation & Deployment',
+      icon: <SiGithubactions size={20} color="rgba(200, 194, 235, 1)" />,
+    },
   ];
+
   return (
     <section className={clsx(styles.stack)} id="stack">
       <Container className={clsx(styles.stackContent)} dataAnimate="fadeInLeft">
